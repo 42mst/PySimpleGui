@@ -51,10 +51,10 @@ while True:
 
 		# sun
 		if weather in ('Sun','Sunny','Clear','Clear with periodic clouds', 'Mostly sunny'):
-			window['-IMAGE-'].update('symbols/sun.png')
+			window['-IMAGE-'].update('PySimpleGui/weather/symbols')
 		
 		# part sun
-		if weather in ('Partly Sunny','Mostly Sunny','Partly cloudy','Mostly cloudy','Cloudy','Overcast'):
+		if weather in ('T','Partly Sunny','Mostly Sunny','Partly cloudy','Mostly cloudy','Cloudy','Overcast'):
 			window['-IMAGE-'].update('symbols/part sun.png')
 		
 		# rain
